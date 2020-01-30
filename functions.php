@@ -23,6 +23,6 @@ if ( !function_exists( 'child_theme_configurator_css' ) ):
         wp_enqueue_style( 'chld_thm_cfg_child', trailingslashit( get_stylesheet_directory_uri() ) . 'style.css', array( 'ct-main-styles','parent-style' ) );
     }
 endif;
-add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
+add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 110 );
 
 // END ENQUEUE PARENT ACTION

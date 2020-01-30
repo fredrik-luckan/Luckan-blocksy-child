@@ -3,20 +3,20 @@ Theme Name: Luckan Blocksy Child
 Template: blocksy
 Author: Creative Themes and Fredrik Enges
 Description: Blocksy Child theme customized for Föreningen Luckan
-Version: 1.0.1580393014
-Updated: 2020-01-30 14:03:34
+Version: 1.0.1580394971
+Updated: 2020-01-30 14:36:11
 
 */
 
 .entry-content  > .nomarginhero {
     margin-bottom: 0 !important;
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
     margin-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
 }
 .primary ~ .nomarginhero {
-    padding-top: 0 !important;
     padding-bottom: 0 !important;
+    padding-top: 0 !important;
 }
 body:not(.main-content-area-boundless) .content-area {
     padding-top: 0 !important;
