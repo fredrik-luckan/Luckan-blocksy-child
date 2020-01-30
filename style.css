@@ -1,10 +1,43 @@
-/**
- * Theme Name: Luckan Blocksy Child
- * Description: Blocksy Child theme customized for Föreningen Luckan
- * Author: Creative Themes and Fredrik Enges
- * Template: blocksy
- * Text Domain: blocksy
-Version: 1.0.1580391719
-Updated: 2020-01-30 13:41:59
- */
+/*
+Theme Name: Luckan Blocksy Child
+Template: blocksy
+Author: Creative Themes and Fredrik Enges
+Description: Blocksy Child theme customized for Föreningen Luckan
+Version: 1.0.1580392437
+Updated: 2020-01-30 13:53:57
 
+*/
+
+.entry-content  > .nomarginhero {
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+.primary ~ .nomarginhero {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+body:not(.main-content-area-boundless) .content-area {
+    padding-top: 0 !important;
+}
+@media screen and (max-width: 764px) {
+.wp-block-columns.has-3-columns {
+    flex-flow: row wrap;
+}
+.has-3-columns .wp-block-column:first-child {
+    flex-basis: 100%;
+}
+.has-3-columns .wp-block-column:not(:first-child) {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+}
+@media (max-width: 478px) {
+.wp-block-columns.has-3-columns {
+    display: block;
+}
+.wp-block-column {
+    margin: 24px 0;
+}
+}
