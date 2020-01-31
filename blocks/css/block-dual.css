@@ -70,9 +70,9 @@
       -webkit-box-flex: 1;
               flex: 1;
       flex-grow: 1;
-      flex-basis: 300px;
-      height: 50%;
+      flex-basis: 500px;
       width: 60vh;
+      height: 300px;
       }
     
     .hero-left-side{
@@ -85,8 +85,8 @@
         }
 
     .left-text {
-      flex-basis: 300px;
-      margin: 8px 48px;
+      flex-basis: 500px;
+      margin: 48px 48px;
       overflow: auto;
       }
   }
@@ -97,7 +97,7 @@
                 flex: 1;
         flex-grow: 1;
         flex-basis: 500px;
-        height: 300px;
+        height: 500px;
         width: 100%;
         }
       
