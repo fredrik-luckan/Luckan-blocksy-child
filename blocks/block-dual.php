@@ -9,8 +9,9 @@
   </div>
     
      <img class="right_image right-half" 
-              src="<?php block_field( 'hero-half-image' ); ?>"
+              src="<?php block_field( 'hero-half-image' ); ?> "
               style=
               "object-fit: <?php block_field( 'toggle-contain-image' ); ?>;
               padding: <?php block_field( 'margin-image' ); ?>px;"> 
   </div>
+
