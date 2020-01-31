@@ -1,22 +1,16 @@
 .hero-fiftycontainer {
-  display: -webkit-box;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-          flex-direction: row;
+  flex-direction: row;
   flex-wrap: wrap;
-  -webkit-box-align: center;
-          align-items: center;
+  align-items: center;
   align-content: center;
   }
 
 .hero-left-side{
-  -webkit-box-flex: 1;
-          flex: 1;
+  flex: 1;
   flex-grow: 1;
   flex-basis: 500px;
-  -webkit-box-pack: center;
-          justify-content: center;
+  justify-content: center;
   flex-shrink: 0 ;
   overflow: auto;
   }
@@ -31,14 +25,12 @@
 
 
 .right_image{
-  -webkit-box-flex: 1;
-          flex: 1;
+  flex: 1;
   flex-grow: 1;
   flex-basis: 500px;
   height: 650px;
   width: 30vw;
-  -o-object-position: 50% 50%;
-     object-position: 50% 50%;
+  object-position: 50% 50%;
   image-rendering: auto;
   flex-shrink: 0 ;
   align-self: stretch;
@@ -47,19 +39,14 @@
 @media only screen and (max-width: 1024px) {
 
   .hero-fiftycontainer {
-    display: -webkit-box;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-            flex-direction: row;
+    flex-direction: row;
     flex-wrap: wrap;
-    -webkit-box-align: stretch;
-            align-items: stretch;
+    align-items: stretch;
     }
   
     .right_image{
-      -webkit-box-flex: 1;
-              flex: 1;
+      flex: 1;
       flex-grow: 1;
       flex-basis: 500px;
       height: 50%;
@@ -67,8 +54,7 @@
       }
     
     .hero-left-side{
-      -webkit-box-flex: 1;
-              flex: 1;
+      flex: 1;
       flex-grow: 1;
       flex-basis: 500px;
         flex-shrink: 0 ;
@@ -84,8 +70,7 @@
 
   @media only screen and (max-width: 768px) {
       .right_image{
-        -webkit-box-flex: 1;
-                flex: 1;
+        flex: 1;
         flex-grow: 1;
         flex-basis: 500px;
         height: 300px;
