@@ -8,6 +8,13 @@
   -webkit-box-align: center;
           align-items: center;
   align-content: center;
+  justify-content: space-around;
+  max-width: 2000px;
+  }
+
+.hero_fullwidthcontainer{
+  height: 100%;
+  width: 100%;
   }
 
 .hero-left-side{
@@ -19,6 +26,7 @@
           justify-content: center;
   flex-shrink: 0 ;
   overflow: auto;
+  align-content: flex-end;
   }
 
 .left-text {
@@ -27,6 +35,7 @@
   overflow: hidden;
   max-height: 60vh;
   max-width: 652px;
+  margin-right: auto;
   }
 
 
