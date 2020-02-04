@@ -14,8 +14,8 @@
               padding: <?php block_field( 'margin-image' ); ?>px;
               " 
 
-              src=" <?php
+              src= <?php
                     $attachment_id = block_value( 'hero-half-image' );
-                    echo wp_get_attachment_image( $attachment_id, 'large' );?> ">
+                    echo wp_get_attachment_image( $attachment_id, 'large' );?> >
   </div>
 
