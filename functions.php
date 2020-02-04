@@ -25,4 +25,26 @@ if ( !function_exists( 'child_theme_configurator_css' ) ):
 endif;
 add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 110 );
 
+function misha_sources( $sources, $size_array, $image_src, $image_meta, $attachment_id ){
+	/*
+	 * Your variables here
+	 */
+	$image_size_name = 'square500'; // add_image_size('square500', 500, 500, true);
+	$breakpoint = 500;
+ 
+	$upload_dir = wp_upload_dir();
+ 
+	$img_url = $upload_dir['baseurl'] . '/' . str_replace( basename( $image_meta['file'] ), $image_meta['sizes'][$image_size_name]['file'], $image_meta['file'] );
+ 
+	$sources[ $breakpoint ] = array(
+		'url'        => $img_url,
+		'descriptor' => 'w',
+		'value'      => $breakpoint,
+	);
+	return $sources;
+}
+ 
+add_filter('wp_calculate_image_srcset','misha_sources',10,5);
+
+
 // END ENQUEUE PARENT ACTION
