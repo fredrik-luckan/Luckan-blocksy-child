@@ -100,7 +100,12 @@
         height: 500px;
         width: 100%;
         }
-      
+        .left-text {
+        flex-basis: 500px;
+        padding: 48px 40px;
+        width: 100%;
+                }
+          
     }
   
 
