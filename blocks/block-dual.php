@@ -9,12 +9,13 @@
   </div>
     
   <img class="right_image right-half" 
-              src="<?php
+              style="
+              object-fit: <?php block_field( 'toggle-contain-image' ); ?>;
+              padding: <?php block_field( 'margin-image' ); ?>px;
+              " 
+
+              src=" <?php
                     $attachment_id = block_value( 'hero-half-image' );
-                    echo wp_get_attachment_image( $attachment_id, 'large' );
-                  ?>"
-              style=
-              "object-fit: <?php block_field( 'toggle-contain-image' ); ?>;
-              padding: <?php block_field( 'margin-image' ); ?>px;"> 
+                    echo wp_get_attachment_image( $attachment_id, 'large' );?> ">
   </div>
 
