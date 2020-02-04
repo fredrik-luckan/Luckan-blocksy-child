@@ -86,7 +86,7 @@
 
     .left-text {
       flex-basis: 500px;
-      margin: 48px 40px;
+      margin: 44px 22.5px;
       overflow: auto;
       }
   }
@@ -102,7 +102,6 @@
         }
 
         .left-text {
-        margin: 22.5px 22.5px;
         overflow: visible;
         max-height: 100%;
 
