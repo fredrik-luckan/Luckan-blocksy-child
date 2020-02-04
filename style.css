@@ -41,5 +41,7 @@ body:not(.main-content-area-boundless) .content-area {
 }
 .wp-block-column {
     margin: 24px 0;
+    width: 100%;
 }
 }
+
