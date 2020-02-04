@@ -31,7 +31,7 @@
 
 .left-text {
   flex-basis: 500px;
-  margin: 44px 22.5px;
+  padding: 8px 48px;
   overflow: hidden;
   max-height: 60vh;
   max-width: 652px;
@@ -85,6 +85,7 @@
         }
 
     .left-text {
+        padding: 0px;
       flex-basis: 500px;
       margin: 44px 22.5px;
       overflow: auto;
