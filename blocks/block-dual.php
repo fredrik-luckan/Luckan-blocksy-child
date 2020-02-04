@@ -8,10 +8,15 @@
      </article>
   </div>
     
-  <img class="right_image right-half" 
-              src="<?php block_field( 'hero-half-image' ); ?> "
-              style=
+  <div class="right_image right-half" style=
               "object-fit: <?php block_field( 'toggle-contain-image' ); ?>;
-              padding: <?php block_field( 'margin-image' ); ?>px;"> 
+              padding: <?php block_field( 'margin-image' ); ?>px;"> > 
+              
+              <?php
+$attachment_id = block_value( 'hero-half-image' );
+echo wp_get_attachment_image( $attachment_id, 'large' );
+?>
+              
   </div>
 
+  
