@@ -10,9 +10,16 @@
   </div>
     
   <img class="right_image right-half" 
-              src="<?php block_field( 'hero-half-image' ); ?> "
+              src=" <?php
+                  $attachment_id = block_value( 'hero-half-image' );
+                  echo wp_get_attachment_image_url( $attachment_id, 'medium' ); ?> "
+              srcset= "<?php
+                  echo wp_get_attachment_image_srcset( $attachment_id, 'medium' )?>"
+              sizes="<?php echo wp_get_attachment_image_sizes( $attachment_id, 'medium' ) ?>"
+
               style=
               "object-fit: <?php block_field( 'toggle-contain-image' ); ?>;
-              padding: <?php block_field( 'margin-image' ); ?>px;"> 
+              padding: <?php block_field( 'margin-image' ); ?>px;"  />
   </div>
 
+ 
