@@ -94,17 +94,10 @@
   @media only screen and (max-width: 768px) {
         .hero-fiftycontainer {
                 display: block;
-                flex-wrap: wrap;
-                align-content: center;
-                justify-content: space-around;
                 max-width: 2000px;
                 }
               
       .right_image{
-        -webkit-box-flex: 1;
-                flex: 1;
-        flex-grow: 1;
-        flex-basis: 500px;
         height: 500px;
         width: 100%;
         }
