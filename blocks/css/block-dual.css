@@ -94,17 +94,15 @@
   @media only screen and (max-width: 768px) {
         .hero-fiftycontainer {
                 display: block;
-                max-width: 2000px;
                 }
               
       .right_image{
-        height: 300px;
+        height: 200px;
         width: 100%;
         }
 
         .left-text {
         padding: 24px 40px;
-        width: 100%;
                 }
           
     }
