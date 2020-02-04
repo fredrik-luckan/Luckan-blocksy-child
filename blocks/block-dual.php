@@ -1,3 +1,4 @@
+
  <div  class="hero-fiftycontainer alignfull nomarginhero" 
       style="background-color:<?php block_field( 'hero-bgcolor' ); ?> !important;
             flex-direction: <?php block_field( 'hero-flip-order' ); ?>;">
@@ -8,15 +9,10 @@
      </article>
   </div>
     
-  <div class="right_image right-half" style=
+  <img class="right_image right-half" 
+              src="<?php block_field( 'hero-half-image' ); ?> "
+              style=
               "object-fit: <?php block_field( 'toggle-contain-image' ); ?>;
-              padding: <?php block_field( 'margin-image' ); ?>px;"> > 
-              
-              <?php
-$attachment_id = block_value( 'hero-half-image' );
-echo wp_get_attachment_image( $attachment_id, 'large' );
-?>
-              
+              padding: <?php block_field( 'margin-image' ); ?>px;"> 
   </div>
 
-  
