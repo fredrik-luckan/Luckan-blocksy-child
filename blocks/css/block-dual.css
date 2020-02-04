@@ -103,6 +103,9 @@
 
         .left-text {
         padding: 24px 40px;
+        overflow: visible;
+        max-height: 100%;
+
                 }
           
     }
