@@ -8,13 +8,31 @@
        <<?php block_field( 'header-type' ); ?>> <?php block_field( 'hero-titel' ); ?> </<?php block_field( 'header-type' ); ?>>
        <p><?php block_field( 'hero-undertext' ); ?></p>
     <div>
-       <a class="block-hero_button-1" href="<?php block_field( 'button-1-url'); ?>"><?php block_field( 'button-1-text'); ?></a>
-       <a class="block-hero_button-2" href="<?php block_field( 'button-2-url'); ?>"><?php block_field( 'button-2-text'); ?></a>
+       <a class="block-hero_button-1" 
+  
+      <?php $field1 = block_field( 'button-1-text', false );
+
+          if ( ! empty( $field1 ) ) { 
+            echo " class='hide'; " ; 
+          } ?>
+       
+       href="<?php block_field( 'button-1-url'); ?>"><?php block_field( 'button-1-text'); ?></a>
+       
+       <a class="block-hero_button-2" 
+       <?php $field2 = block_field( 'button-2-text', false );
+      
+      if ( ! empty( $field2 ) ) { 
+        echo " class='hide'; " ; 
+      } ?>
+
+      href="<?php block_field( 'button-2-url'); ?>"><?php block_field( 'button-2-text'); ?></a>
     </div>
      </article>
   
     </div>
     
+
+
   <img class="right_image right-half" 
               src=" <?php
                   $attachment_id = block_value( 'hero-half-image' );
@@ -30,4 +48,6 @@
               padding: <?php block_field( 'margin-image' ); ?>px;"  />
   </div>
 
+
  
+  
