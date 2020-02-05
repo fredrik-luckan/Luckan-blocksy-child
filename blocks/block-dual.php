@@ -1,13 +1,19 @@
 
- <div  class="hero-fiftycontainer alignfull nomarginhero" 
+ <div  class="block-hero alignfull nomarginhero" 
       style="background-color:<?php block_field( 'hero-bgcolor' ); ?> !important;
             flex-direction: <?php block_field( 'hero-flip-order' ); ?>;">
     <div class="hero-left-side">
-      <article class="left-text">
+      
+    <article class="left-text">
        <<?php block_field( 'header-type' ); ?>> <?php block_field( 'hero-titel' ); ?> </<?php block_field( 'header-type' ); ?>>
        <p><?php block_field( 'hero-undertext' ); ?></p>
+    <div>
+       <a class="block-hero_button-1" href="<?php block_field( 'button-1-url'); ?>"><?php block_field( 'button-1-text'); ?></a>
+       <a class="block-hero_button-2" href="<?php block_field( 'button-2-url'); ?>"><?php block_field( 'button-2-text'); ?></a>
+    </div>
      </article>
-  </div>
+  
+    </div>
     
   <img class="right_image right-half" 
               src=" <?php
