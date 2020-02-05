@@ -46,5 +46,11 @@ function misha_sources( $sources, $size_array, $image_src, $image_meta, $attachm
  
 add_filter('wp_calculate_image_srcset','misha_sources',10,5);
 
+function mytheme_add_editor_styles() {
+    add_editor_style( 'style-editor.css' );
+}
+add_action( 'admin_init', 'Luckan-blocksy-child_add_editor_styles' );
+
+
 
 // END ENQUEUE PARENT ACTION
