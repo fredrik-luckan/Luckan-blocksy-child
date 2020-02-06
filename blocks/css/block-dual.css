@@ -148,9 +148,12 @@
         .left-text {
         overflow: visible;
         max-height: 100%;
-
+        width: 100vw;
                 }
-          
+        .hero-left-side{
+        width: 100vw;                       
+        }
+                  
     }
   
 
