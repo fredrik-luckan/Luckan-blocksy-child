@@ -1,4 +1,3 @@
-
  <div  class="block-hero alignfull nomarginhero" 
       style="background-color:<?php block_field( 'hero-bgcolor' ); ?> !important;
             flex-direction: <?php block_field( 'hero-flip-order' ); ?>;">
@@ -8,30 +7,26 @@
        <<?php block_field( 'header-type' ); ?>> <?php block_field( 'hero-titel' ); ?> </<?php block_field( 'header-type' ); ?>>
        <p><?php block_field( 'hero-undertext' ); ?></p>
     <div>
-       <a class="block-hero_button-1" 
-  
-      <?php $field1 = block_field( 'button-1-text', false );
-
-          if ( ! empty( $field1 ) ) { 
-            echo " class='hide'; " ; 
-          } ?>
-       
-       href="<?php block_field( 'button-1-url'); ?>"><?php block_field( 'button-1-text'); ?></a>
-       
-       <a class="block-hero_button-2" 
-       <?php $field2 = block_field( 'button-2-text', false );
       
-      if ( ! empty( $field2 ) ) { 
-        echo " class='hide'; " ; 
-      } ?>
+                <?php $button_text1 = block_value( 'button-1-text' ); ?>
+            <a class="block-hero_button-1 <?php echo empty( $button_text1 ) ? 'hide' : ''; ?>" 
+                href="<?php block_field( 'button-1-url'); ?>">
+                <?php block_field( 'button-1-text'); ?> 
+                <?php echo $button_text; ?>
+            </a>
+              
+            <?php $button_text1 = block_value( 'button-1-text' ); ?>
+<a class="block-hero_button-2 <?php echo empty( $button_text1 ) ? 'hide' : ''; ?>" 
+    href="<?php block_field( 'button-2-url'); ?>">
+    <?php block_field( 'button-2-text'); ?> 
+    <?php echo $button_text; ?>
+</a>
 
-      href="<?php block_field( 'button-2-url'); ?>"><?php block_field( 'button-2-text'); ?></a>
-    </div>
+</div>
      </article>
   
     </div>
     
-
 
   <img class="right_image right-half" 
               src=" <?php
@@ -49,5 +44,5 @@
   </div>
 
 
- 
-  
+
+
