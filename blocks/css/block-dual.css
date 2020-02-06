@@ -45,14 +45,7 @@
   margin-right: auto;
   }
 
-  /* if ch dont work */
-
-  @supports (max-width: 70ch) {
-        .left-text {
-        max-width:  700px;
-        }
-      }
-      
+ 
 
 /* right side main image that are half the viewport */
 
