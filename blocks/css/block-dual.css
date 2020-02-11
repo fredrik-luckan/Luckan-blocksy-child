@@ -45,8 +45,6 @@
   margin-right: auto;
   }
 
- 
-
 /* right side main image that are half the viewport */
 
 .right_image{
@@ -75,7 +73,6 @@
     border-radius: 0;
     border: solid #fff 2px;
     background-color: transparent;
-    color: #fff;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
