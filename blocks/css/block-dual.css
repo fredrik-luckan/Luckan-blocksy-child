@@ -62,8 +62,31 @@
   align-self: stretch;
   }
 
-/* buttons */
+/* buttons 
 
+.block-hero_button-1,
+.block-hero_button-2 {
+    display: inline-block;
+    background-color: #fff;
+    padding: 8px 24px;
+    border-radius: 3px;
+    color: #fff;
+    border-radius: 0;
+    border: solid #fff 2px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px
+}
+.block-hero_button-1 {
+    margin-right: 10px;
+    background-color: #fff;
+    color: inherit;
+}
+
+*/
 
 /* tweaks for rezising */
 
