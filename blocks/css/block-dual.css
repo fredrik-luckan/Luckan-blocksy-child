@@ -66,12 +66,12 @@
 .block-hero_button-1,
 .block-hero_button-2 {
     display: inline-block;
-    background-color: #fff;
+    background-color: rgb(0, 0, 0);
     padding: 8px 24px;
     border-radius: 3px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     border-radius: 0;
-    border: solid #fff 2px;
+    border: solid rgb(0, 0, 0) 2px;
     background-color: transparent;
     font-size: 14px;
     text-transform: uppercase;
@@ -80,7 +80,7 @@
 }
 .block-hero_button-1 {
     margin-right: 10px;
-    background-color: #fff;
+    background-color: rgb(0, 0, 0);
     color: inherit;
 }
 
