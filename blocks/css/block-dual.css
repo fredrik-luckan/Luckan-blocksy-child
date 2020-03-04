@@ -126,7 +126,6 @@
        flex-basis: 500px;
       margin: 44px 22.5px;
       overflow: auto;
-      padding: 16px 48px;
 
       }
   }
@@ -145,7 +144,8 @@
         overflow: visible;
         max-height: 100%;
         width: 100vw;
-                }
+        padding: 16px 48px;
+        }
         .hero-left-side{
         width: 100vw;                       
         }
