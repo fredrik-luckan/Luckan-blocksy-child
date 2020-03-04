@@ -38,7 +38,8 @@ echo wp_get_attachment_image_srcset($attachment_id, 'large') ?>"
 
               sizes="(max-width: 1500px) 60vw, (max-width: 900px) 30vw, 33vw"
 
-              style=
-              "object-fit: <?php block_field('toggle-contain-image'); ?>;
-              padding: <?php block_field('margin-image'); ?>px;"  />
+              style="
+                      <?php block_field( 'clip-path' ); ?>;
+                      object-fit: <?php block_field('toggle-contain-image'); ?>;
+                      padding: <?php block_field('margin-image'); ?>px;"  />
   </div>
