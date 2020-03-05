@@ -141,8 +141,8 @@
         }
 
         .left-text {
-        width: 100vw;
-        margin: 24px 48px;
+        width: 100%;
+        padding: 24px 48px;
         }
 
         .hero-left-side{
