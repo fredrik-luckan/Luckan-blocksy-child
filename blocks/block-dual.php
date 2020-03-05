@@ -9,16 +9,16 @@
     <div>
       
                 <?php $button_text1 = block_value('button-1-text'); ?>
-            <a class="block-hero_button-1 <?php echo empty($button_text1) ? 'hide' : ''; ?>" 
+            <div class="block-hero_button-1 <?php echo empty($button_text1) ? 'hide' : ''; ?>" 
                 href="<?php block_field('button-1-url'); ?>">
                 <?php echo $button_text1; ?>
-            </a>
+            </div>
               
-            <?php $button_text1 = block_value('button-2-text'); ?>
-            <a class="block-hero_button-2 <?php echo empty($button_text2) ? 'hide' : ''; ?>" 
+            <?php $button_text2 = block_value('button-2-text'); ?>
+            <div class="block-hero_button-2 <?php echo empty($button_text2) ? 'hide' : ''; ?>" 
             href="<?php block_field('button-2-url'); ?>">
                 <?php echo $button_text2; ?>
-</a>
+            </div>
 
 </div>
      </article>
