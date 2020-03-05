@@ -141,9 +141,8 @@
         }
 
         .left-text {
-        overflow: visible;
         max-height: 100%;
-        width: 100%;
+        width: auto;
         padding: 24px 48px;
         }
         .hero-left-side{
