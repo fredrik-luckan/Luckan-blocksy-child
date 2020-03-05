@@ -124,7 +124,7 @@
 
     .left-text {
        flex-basis: 500px;
-      margin: 44px 22.5px;
+      padding: 16px 22.5px;
       overflow: auto;
 
       }
@@ -141,7 +141,7 @@
         }
 
         .left-text {
-        padding: 24px 48px !important;
+        padding: 16px 48px !important;
         }
 
         .hero-left-side{
