@@ -141,11 +141,12 @@
         }
 
         .left-text {
-        margin: 48px 24.656px !important;
+        
         }
 
         .hero-left-side{
-        width: 100vw;                       
+        width: 100vw; 
+        padding: 48px 24.656px;                      
         }
                   
     }
