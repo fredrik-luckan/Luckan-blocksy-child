@@ -14,6 +14,7 @@
                 <?php echo $button_text1; ?>
             </div>
               
+           
             <?php $button_text2 = block_value('button-2-text'); ?>
             <div class="block-hero_button-2 <?php echo empty($button_text2) ? 'hide' : ''; ?>" 
             href="<?php block_field('button-2-url'); ?>">
