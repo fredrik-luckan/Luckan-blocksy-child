@@ -124,8 +124,8 @@
 
     .left-text {
        flex-basis: 500px;
-      padding: 16px 22.5px;
-      overflow: auto;
+       padding: 24px 44.656px;                      
+       overflow: auto;
 
       }
   }
